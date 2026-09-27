@@ -1,0 +1,24 @@
+:root { font-family: 'Segoe UI', sans-serif; color: #e9e6d8; background: #18221f; font-synthesis: none; }
+* { box-sizing: border-box; }
+html, body, #app { margin: 0; width: 100%; height: 100%; overflow: hidden; }
+canvas { display: block; width: 100%; height: 100%; }
+[hidden] { display: none !important; }
+#menu { position: fixed; inset: 0; background: linear-gradient(90deg, #101b17ec, #101b1780 42%, #101b170a 80%), linear-gradient(0deg,#101b1780,transparent 40%); }
+header, footer { position: absolute; left: 6vw; right: 6vw; display: flex; align-items: center; justify-content: space-between; }
+header { top: 6vh; font-size: 11px; letter-spacing: .36em; color: #d6d4c3; }
+header span:first-child { font: 36px Georgia, serif; letter-spacing: -.08em; }
+.title { position: absolute; left: 10vw; top: 47%; transform: translateY(-50%); }
+.title > p:first-child { color: #c4ab79; font-size: 10px; letter-spacing: .32em; }
+h1 { font: normal clamp(80px,12vw,176px)/1 Georgia, serif; letter-spacing: -.065em; margin: 20px 0 16px -7px; }
+h1 span { color: #be9c62; }
+i { display: block; font: italic 22px Georgia, serif; color: #c2c8b6; }
+button { display: block; margin-top: 56px; padding: 15px 0; min-width: 180px; border: none; border-top: 1px solid #b8b9a34d; border-bottom: 1px solid #b8b9a34d; color: #e7e6d6; background: transparent; font: 12px 'Segoe UI',sans-serif; letter-spacing: .18em; text-align: left; cursor: pointer; }
+button::after { content: '↗'; float: right; color: #c4ab79; }
+button:hover { color: #dfbf83; border-color: #c4ab79; }
+button:focus-visible { outline: 1px solid #c4ab79; outline-offset: 6px; }
+button:disabled { opacity: .4; cursor: wait; }
+footer { bottom: 5vh; border-top: 1px solid #d6d4c329; padding-top: 20px; color: #a8b3a3; font-size: 9px; letter-spacing: .23em; }
+#error { max-width: 420px; font-size: 13px; color: #ecd3af; }
+#crosshair { pointer-events: none; position: fixed; top: 50%; left: 50%; width: 3px; height: 3px; border-radius: 50%; background: #ffffe7bc; transform: translate(-50%,-50%); box-shadow: 0 0 2px #0008; }
+#debug { position: fixed; top: 12px; left: 12px; margin: 0; pointer-events: none; background: #081411db; color: #d4d9c8; padding: 14px; font: 11px/1.65 monospace; }
+@media(max-width:600px) { .title { left: 8vw; } footer span:last-child { display:none; } }

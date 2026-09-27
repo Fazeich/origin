@@ -1,0 +1,319 @@
+{
+  "measuredAt": "2026-09-27T22:10:43.397Z",
+  "platform": "win32 10.0.26200",
+  "cpu": "AMD Ryzen 5 7600 6-Core Processor              ",
+  "browser": "153.0.8010.53",
+  "viewport": "1440x900, deviceScaleFactor=1",
+  "note": "Headless Chrome, dev Vite. RAF timings are not a universal or headed-browser FPS guarantee.",
+  "config": {
+    "voxelsPerMeter": 4,
+    "chunkSize": 32,
+    "seed": 73129,
+    "worldMinHeight": 0,
+    "worldHeightVoxels": 96,
+    "renderDistance": 6,
+    "workerCount": 2,
+    "biomeSizeInChunks": 16,
+    "biome": {
+      "warp": 0.16,
+      "warpFrequency": 1.6,
+      "transition": 0.18
+    },
+    "terrain": {
+      "baseHeight": 5,
+      "soilDepth": 0.75,
+      "detailFrequency": 0.18,
+      "detailAmplitude": 0.18,
+      "surfacePatchFrequency": 0.28,
+      "surfaceNoiseLow": 0.2,
+      "surfaceNoiseHigh": 0.8,
+      "profiles": [
+        {
+          "elevation": 0,
+          "amplitude": 3,
+          "frequency": 0.026
+        },
+        {
+          "elevation": 0.7,
+          "amplitude": 4.2,
+          "frequency": 0.04
+        },
+        {
+          "elevation": 3.5,
+          "amplitude": 9,
+          "frequency": 0.022
+        }
+      ]
+    },
+    "player": {
+      "speed": 3.6,
+      "radius": 0.28,
+      "height": 1.75,
+      "eyeHeight": 1.62,
+      "gravity": 22,
+      "jumpSpeed": 6.2,
+      "stepHeight": 0.3,
+      "mouseSensitivity": 0.002,
+      "spawnX": -18,
+      "spawnZ": -18,
+      "spawnYaw": -2.25
+    },
+    "interactionRange": 4,
+    "fixedStep": 0.008333333333333333,
+    "maxFrameDelta": 0.1,
+    "graphics": {
+      "fov": 72,
+      "pixelRatioCap": 1.5,
+      "fogNearFraction": 0.48,
+      "fogFarFraction": 0.93
+    }
+  },
+  "loadMs": 833.9465000000002,
+  "generationSamples": [
+    {
+      "ms": 40.80949999999996,
+      "triangles": 342
+    },
+    {
+      "ms": 21.281499999999937,
+      "triangles": 76
+    },
+    {
+      "ms": 11.604799999999955,
+      "triangles": 48
+    },
+    {
+      "ms": 11.34949999999992,
+      "triangles": 232
+    },
+    {
+      "ms": 11.900600000000054,
+      "triangles": 120
+    },
+    {
+      "ms": 11.641399999999976,
+      "triangles": 76
+    },
+    {
+      "ms": 11.053099999999972,
+      "triangles": 234
+    },
+    {
+      "ms": 11.056900000000041,
+      "triangles": 204
+    },
+    {
+      "ms": 11.622299999999996,
+      "triangles": 90
+    },
+    {
+      "ms": 12.314000000000078,
+      "triangles": 314
+    },
+    {
+      "ms": 11.81619999999998,
+      "triangles": 142
+    },
+    {
+      "ms": 11.815500000000043,
+      "triangles": 146
+    },
+    {
+      "ms": 11.193499999999972,
+      "triangles": 178
+    },
+    {
+      "ms": 11.36099999999999,
+      "triangles": 186
+    },
+    {
+      "ms": 11.596300000000042,
+      "triangles": 1328
+    },
+    {
+      "ms": 12.002100000000041,
+      "triangles": 512
+    },
+    {
+      "ms": 12.036899999999946,
+      "triangles": 726
+    },
+    {
+      "ms": 11.774599999999964,
+      "triangles": 394
+    },
+    {
+      "ms": 11.240699999999947,
+      "triangles": 462
+    },
+    {
+      "ms": 11.476499999999987,
+      "triangles": 286
+    },
+    {
+      "ms": 11.602999999999952,
+      "triangles": 202
+    },
+    {
+      "ms": 12.105000000000018,
+      "triangles": 364
+    },
+    {
+      "ms": 11.288099999999986,
+      "triangles": 872
+    },
+    {
+      "ms": 11.768800000000056,
+      "triangles": 872
+    },
+    {
+      "ms": 11.63130000000001,
+      "triangles": 458
+    },
+    {
+      "ms": 11.466299999999933,
+      "triangles": 596
+    },
+    {
+      "ms": 11.264799999999923,
+      "triangles": 544
+    },
+    {
+      "ms": 11.338600000000042,
+      "triangles": 588
+    },
+    {
+      "ms": 12.13720000000012,
+      "triangles": 364
+    },
+    {
+      "ms": 11.419900000000098,
+      "triangles": 492
+    }
+  ],
+  "biomeCrossSections": [
+    {
+      "biome": "Ochre dunes",
+      "meters": 133,
+      "seconds": 36.94444444444444
+    },
+    {
+      "biome": "Basalt highlands",
+      "meters": 122,
+      "seconds": 33.888888888888886
+    },
+    {
+      "biome": "Mossland",
+      "meters": 123,
+      "seconds": 34.166666666666664
+    },
+    {
+      "biome": "Ochre dunes",
+      "meters": 135,
+      "seconds": 37.5
+    },
+    {
+      "biome": "Basalt highlands",
+      "meters": 131,
+      "seconds": 36.388888888888886
+    },
+    {
+      "biome": "Mossland",
+      "meters": 129,
+      "seconds": 35.833333333333336
+    },
+    {
+      "biome": "Ochre dunes",
+      "meters": 113,
+      "seconds": 31.38888888888889
+    }
+  ],
+  "scenarios": [
+    {
+      "name": "spawn",
+      "biome": "Ochre dunes",
+      "fps": 180.28304437959537,
+      "frameMeanMs": 5.546833333335817,
+      "frameP95Ms": 5.600000000000364,
+      "sampleFrames": 600,
+      "chunks": 507,
+      "triangles": 20110,
+      "drawCalls": 85,
+      "geometries": 85,
+      "voxelBytes": 16613376,
+      "workerLastMs": 3.5,
+      "position": {
+        "x": -18,
+        "y": 7.249999008178711,
+        "z": -18
+      },
+      "gpu": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4070 (0x00002709) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+    },
+    {
+      "name": "mossland",
+      "biome": "Mossland",
+      "fps": 180.245133381076,
+      "frameMeanMs": 5.548000000009933,
+      "frameP95Ms": 5.600000000000364,
+      "sampleFrames": 600,
+      "chunks": 507,
+      "triangles": 11352,
+      "drawCalls": 71,
+      "geometries": 90,
+      "voxelBytes": 16613376,
+      "workerLastMs": 5.699999995529652,
+      "position": {
+        "x": -48,
+        "y": 7.249999008178711,
+        "z": 48
+      },
+      "gpu": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4070 (0x00002709) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+    },
+    {
+      "name": "ochre-dunes",
+      "biome": "Ochre dunes",
+      "fps": 180.08283810544796,
+      "frameMeanMs": 5.553000000002485,
+      "frameP95Ms": 5.600000000002183,
+      "sampleFrames": 600,
+      "chunks": 507,
+      "triangles": 26708,
+      "drawCalls": 103,
+      "geometries": 103,
+      "voxelBytes": 16613376,
+      "workerLastMs": 5.700000002980232,
+      "position": {
+        "x": -48,
+        "y": 8.24999900817871,
+        "z": -48
+      },
+      "gpu": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4070 (0x00002709) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+    },
+    {
+      "name": "basalt-highlands",
+      "biome": "Basalt highlands",
+      "fps": 180.03960871391712,
+      "frameMeanMs": 5.554333333333331,
+      "frameP95Ms": 5.600000000002183,
+      "sampleFrames": 600,
+      "chunks": 507,
+      "triangles": 36774,
+      "drawCalls": 153,
+      "geometries": 173,
+      "voxelBytes": 16613376,
+      "workerLastMs": 4.899999998509884,
+      "position": {
+        "x": 48,
+        "y": 16.24999900817872,
+        "z": -48
+      },
+      "gpu": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4070 (0x00002709) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+    }
+  ],
+  "edit": {
+    "rebuilds": 3,
+    "snapshotMs": 4.899999998509884,
+    "workerMs": 1
+  },
+  "errors": []
+}

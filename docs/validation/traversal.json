@@ -1,0 +1,29 @@
+[
+  {
+    "biome": "Basalt highlands",
+    "startX": -248,
+    "endX": -126,
+    "reachedX": -125.98999999999538,
+    "seconds": 33.89166666666539,
+    "completed": true,
+    "route": "straight +X at z=64; actual AABB controller and generated voxel collision; no jumps; no streaming waits; simulated fixed-step time"
+  },
+  {
+    "biome": "Mossland",
+    "startX": -126,
+    "endX": -3,
+    "reachedX": -2.9999999999959766,
+    "seconds": 34.16666666666537,
+    "completed": true,
+    "route": "straight +X at z=64; actual AABB controller and generated voxel collision; no jumps; no streaming waits; simulated fixed-step time"
+  },
+  {
+    "biome": "Ochre dunes",
+    "startX": -3,
+    "endX": 132,
+    "reachedX": 132.00000000000423,
+    "seconds": 37.499999999998515,
+    "completed": true,
+    "route": "straight +X at z=64; actual AABB controller and generated voxel collision; no jumps; no streaming waits; simulated fixed-step time"
+  }
+]
