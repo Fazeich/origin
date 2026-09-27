@@ -36,6 +36,12 @@ Seven measured straight geography spans at z=64 were 113–135m, equivalent to 3
 
 ## Scope of evidence
 
-This validates the local playable loop and a static production build. No deployment, multiplayer, disk persistence, mobile controls, weak-device benchmark or multi-hour soak was performed. Deep digging can trap a player, as there is no building/escape tool in scope. See [performance limitations](../architecture/performance.md) and root README.
+This validates the local playable loop and a static production build. The subsequent GitHub Pages publication is recorded below. No multiplayer, disk persistence, mobile controls, weak-device benchmark or multi-hour soak was performed. Deep digging can trap a player, as there is no building/escape tool in scope. See [performance limitations](../architecture/performance.md) and root README.
 
 Environment issues encountered and resolved: a global private npm registry was overridden locally with the public registry; npm 10.9 optional-peer resolution required the documented project npm setting; one clean-install retry was needed while Windows finished releasing esbuild after server shutdown. No portfolio files were edited by this task.
+
+## GitHub Pages publication — 2026-09-28
+
+Published to **https://fazeich.github.io/origin/** from `Fazeich/origin`, branch `gh-pages`, root folder. Source is on `main`. The public URL returned HTTP 200. Lint, typecheck, all 25 unit tests and production build passed before publishing; npm audit reported zero vulnerabilities after adding the deploy tool.
+
+The browser smoke suite then passed against the **public HTTPS URL**, including worker loading, WebGL, pointer lock, WASD, mouse look, actual LMB remeshing, pause/resume, hidden diagnostics, no development bridge and no console/page errors. Evidence: [deployment.json](deployment.json). Subsequent updates use `npm run deploy`; source-only pushes do not republish the site.

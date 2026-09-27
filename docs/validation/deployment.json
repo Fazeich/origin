@@ -1,0 +1,17 @@
+{
+  "at": "2026-09-27T22:24:06.205Z",
+  "browser": "153.0.8010.53",
+  "build": "https://fazeich.github.io/origin/",
+  "passed": [
+    "static worker assets",
+    "WebGL render",
+    "pointer lock",
+    "WASD",
+    "mouse look and LMB rebuild",
+    "pause and resume",
+    "F3 hides diagnostics",
+    "no test bridge in production",
+    "no gameplay text",
+    "no console/page errors"
+  ]
+}

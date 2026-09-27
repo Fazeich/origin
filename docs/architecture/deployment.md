@@ -14,4 +14,4 @@ npm run test:production
 Remove-Item Env:ORIGIN_SMOKE_URL
 ```
 
-Remote checks cover WebGL startup, worker assets, mouse capture, movement, LMB mesh rebuilding, pause/resume and absence of the development bridge. They use a temporary browser session and do not persist world edits. Results are written to `docs/validation/deployment.json`. Initial publication is only considered verified once that check passes.
+Remote checks cover WebGL startup, worker assets, mouse capture, movement, LMB mesh rebuilding, pause/resume and absence of the development bridge. They use a temporary browser session and do not persist world edits. Results are written to `docs/validation/deployment.json`. Initial publication passed these checks against the public HTTPS site on 2026-09-28 (Moscow date).
